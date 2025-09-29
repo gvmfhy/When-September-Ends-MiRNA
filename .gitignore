@@ -1,0 +1,14 @@
+# Data folders (populated via download scripts)
+data/raw/
+data/processed/
+data/meta/
+
+# Derived analysis outputs
+results/
+
+# Environment/config extras
+env/
+*.log
+
+# macOS artifacts
+.DS_Store
