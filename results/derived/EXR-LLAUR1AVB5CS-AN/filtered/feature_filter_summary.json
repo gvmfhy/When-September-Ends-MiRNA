@@ -1,0 +1,12 @@
+{
+  "dataset_id": "EXR-LLAUR1AVB5CS-AN",
+  "min_cpm": 1.0,
+  "min_detect_samples": 40,
+  "min_detect_fraction": 0.2,
+  "min_log2_variance": 0.01,
+  "n_features_initial": 1536,
+  "n_features_detect": 454,
+  "n_features_variance": 1463,
+  "n_features_filtered": 454,
+  "n_samples": 197
+}

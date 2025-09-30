@@ -1,0 +1,10 @@
+{
+  "original_samples": 937,
+  "kept_samples": 710,
+  "dropped_samples": 227,
+  "dropped_by_dataset": {
+    "EXR-KJENS1RID1-AN": 136,
+    "EXR-LLAUR1AVB5CS-AN": 68,
+    "EXR-TTUSC1gCrGDH-AN": 23
+  }
+}

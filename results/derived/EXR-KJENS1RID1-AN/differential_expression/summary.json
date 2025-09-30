@@ -1,0 +1,55 @@
+{
+  "dataset_id": "EXR-KJENS1RID1-AN",
+  "n_miRNAs": 609,
+  "n_samples": 428,
+  "biofluids_tested": ["Plasma", "Saliva", "Urine"],
+  "tmm_factor_range": [0.0475, 8.147],
+  "top_marker_selection_criteria": "Highest AUC among miRNAs with logFC>0 and FDR<0.05; fallback to lowest FDR if none upregulated",
+  "analyses": [
+    {
+      "biofluid": "Plasma",
+      "n_target": 180,
+      "n_rest": 248,
+      "n_significant_fdr05": 551,
+      "n_logFC_gt2": 179,
+      "n_upregulated_sig": 228,
+      "top_marker": {
+        "miRNA": "hsa-miR-486-5p",
+        "logFC": 7.0145,
+        "AUC": 0.9929,
+        "adj_P_Val": 3.4322e-138,
+        "selection_criteria": "highest AUC among upregulated (logFC>0, FDR<0.05)"
+      }
+    },
+    {
+      "biofluid": "Saliva",
+      "n_target": 45,
+      "n_rest": 383,
+      "n_significant_fdr05": 327,
+      "n_logFC_gt2": 70,
+      "n_upregulated_sig": 215,
+      "top_marker": {
+        "miRNA": "hsa-miR-223-3p",
+        "logFC": 6.1912,
+        "AUC": 0.9889,
+        "adj_P_Val": 2.5735e-44,
+        "selection_criteria": "highest AUC among upregulated (logFC>0, FDR<0.05)"
+      }
+    },
+    {
+      "biofluid": "Urine",
+      "n_target": 203,
+      "n_rest": 225,
+      "n_significant_fdr05": 537,
+      "n_logFC_gt2": 161,
+      "n_upregulated_sig": 307,
+      "top_marker": {
+        "miRNA": "hsa-miR-30c-2-3p",
+        "logFC": 7.3993,
+        "AUC": 0.9992,
+        "adj_P_Val": 5.3319e-196,
+        "selection_criteria": "highest AUC among upregulated (logFC>0, FDR<0.05)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "dataset_id": "EXR-LLAUR1AVB5CS-AN",
+  "n_samples": 196,
+  "n_miRNAs": 454,
+  "library_size": {
+    "min": 3.0,
+    "median": 355066.95,
+    "max": 7891967.7333333315
+  },
+  "detection_rate": {
+    "min": 2,
+    "median": 285.5,
+    "max": 441
+  },
+  "biofluids": [
+    "Plasma",
+    "Serum",
+    "Urine"
+  ],
+  "timestamp": "2025-09-29T20:04:33.556241"
+}

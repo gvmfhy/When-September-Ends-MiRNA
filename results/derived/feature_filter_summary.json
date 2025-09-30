@@ -1,0 +1,38 @@
+{
+  "EXR-KJENS1RID1-AN": {
+    "dataset_id": "EXR-KJENS1RID1-AN",
+    "min_cpm": 1.0,
+    "min_detect_samples": 86,
+    "min_detect_fraction": 0.2,
+    "min_log2_variance": 0.01,
+    "n_features_initial": 2068,
+    "n_features_detect": 609,
+    "n_features_variance": 1773,
+    "n_features_filtered": 609,
+    "n_samples": 428
+  },
+  "EXR-TTUSC1gCrGDH-AN": {
+    "dataset_id": "EXR-TTUSC1gCrGDH-AN",
+    "min_cpm": 1.0,
+    "min_detect_samples": 63,
+    "min_detect_fraction": 0.2,
+    "min_log2_variance": 0.01,
+    "n_features_initial": 2124,
+    "n_features_detect": 729,
+    "n_features_variance": 1821,
+    "n_features_filtered": 729,
+    "n_samples": 312
+  },
+  "EXR-LLAUR1AVB5CS-AN": {
+    "dataset_id": "EXR-LLAUR1AVB5CS-AN",
+    "min_cpm": 1.0,
+    "min_detect_samples": 40,
+    "min_detect_fraction": 0.2,
+    "min_log2_variance": 0.01,
+    "n_features_initial": 1536,
+    "n_features_detect": 454,
+    "n_features_variance": 1463,
+    "n_features_filtered": 454,
+    "n_samples": 197
+  }
+}

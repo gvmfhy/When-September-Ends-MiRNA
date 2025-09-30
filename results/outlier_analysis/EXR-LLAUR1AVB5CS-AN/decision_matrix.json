@@ -1,0 +1,14 @@
+{
+  "n_outliers": 100,
+  "pct_outliers": 51.02040816326531,
+  "silhouette_all_samples": 0.0915544316110135,
+  "silhouette_inliers_only": 0.07726828227431547,
+  "silhouette_outliers_only": 0.15255800285783808,
+  "outlier_biofluids": {
+    "Plasma": 38,
+    "Serum": 35,
+    "Urine": 27
+  },
+  "decision": "STRATIFIED ANALYSIS - Mixed quality",
+  "recommendation": "Report markers in tiers: Tier 1 (significant with outliers), Tier 2 (significant without outliers). Document robustness."
+}

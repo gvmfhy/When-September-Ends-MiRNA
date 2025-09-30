@@ -1,0 +1,29 @@
+{
+  "shared_miRNA": 1417,
+  "datasets": [
+    {
+      "dataset_id": "EXR-KJENS1RID1-AN",
+      "n_miRNA": 2068,
+      "n_samples": 428,
+      "median_library_size": 239606.5,
+      "median_log2_cpm": 0.0,
+      "n_low_miRNA": 136
+    },
+    {
+      "dataset_id": "EXR-TTUSC1gCrGDH-AN",
+      "n_miRNA": 2124,
+      "n_samples": 312,
+      "median_library_size": 905058.0,
+      "median_log2_cpm": 0.0,
+      "n_low_miRNA": 23
+    },
+    {
+      "dataset_id": "EXR-LLAUR1AVB5CS-AN",
+      "n_miRNA": 1536,
+      "n_samples": 197,
+      "median_library_size": 352103.0,
+      "median_log2_cpm": 0.0,
+      "n_low_miRNA": 66
+    }
+  ]
+}

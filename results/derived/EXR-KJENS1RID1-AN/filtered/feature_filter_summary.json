@@ -1,0 +1,12 @@
+{
+  "dataset_id": "EXR-KJENS1RID1-AN",
+  "min_cpm": 1.0,
+  "min_detect_samples": 86,
+  "min_detect_fraction": 0.2,
+  "min_log2_variance": 0.01,
+  "n_features_initial": 2068,
+  "n_features_detect": 609,
+  "n_features_variance": 1773,
+  "n_features_filtered": 609,
+  "n_samples": 428
+}

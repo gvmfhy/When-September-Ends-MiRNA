@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+      Plasma       0.94      0.73      0.82       180
+      Saliva       0.00      0.00      0.00        45
+       Serum       0.00      0.00      0.00         0
+       Urine       0.80      0.96      0.87       203
+
+    accuracy                           0.76       428
+   macro avg       0.43      0.42      0.42       428
+weighted avg       0.77      0.76      0.76       428

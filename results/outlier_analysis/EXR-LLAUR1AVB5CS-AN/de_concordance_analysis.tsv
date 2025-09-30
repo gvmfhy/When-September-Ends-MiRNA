@@ -1,0 +1,4 @@
+biofluid	n_samples_all	n_samples_inliers	top50_all	top50_inliers	overlap	concordance_pct
+Plasma	83	45	13	50	1	2.0
+Serum	77	42	50	50	1	2.0
+Urine	36	9	50	50	37	74.0

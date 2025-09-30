@@ -1,0 +1,21 @@
+{
+  "dataset_id": "EXR-KJENS1RID1-AN",
+  "n_samples": 428,
+  "n_miRNAs": 609,
+  "library_size": {
+    "min": 762.0,
+    "median": 239485.29166666666,
+    "max": 27621334.199999996
+  },
+  "detection_rate": {
+    "min": 51,
+    "median": 301.0,
+    "max": 604
+  },
+  "biofluids": [
+    "Urine",
+    "Plasma",
+    "Saliva"
+  ],
+  "timestamp": "2025-09-29T20:04:31.191317"
+}

@@ -1,0 +1,198 @@
+sample_id	dataset_id	library_size	biofluid	qc_status	isolation_method	reads_used_for_alignment	miRNA_sense_counts	low_miRNA_flag
+sample_BFPExiqon2_56_S93_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	713617.0	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_BFPExiqon3_57_S94_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	753942.0	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_BFPExoQuick1_85_S118_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	644521.0	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_BFPExoQuick2_86_S119_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	66805.0	Plasma	PASS	SeraMir Kit (System Biosciences)			True
+sample_BFPExoQuick3_87_S120_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	299528.0	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_BFPExoRNeasy1_49_S87_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	383271.0	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BFPExoRNeasy2_50_S88_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	546733.0	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BFPExoRNeasy3_51_S89_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	465937.0	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BFPME1_79_fastq	EXR-LLAUR1AVB5CS-AN	88370.0	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BFPME2_80_fastq	EXR-LLAUR1AVB5CS-AN	65954.0	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BFPME3_81_S114_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	8389.0	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BFPMillipore1_67_fastq	EXR-LLAUR1AVB5CS-AN	358782.00000000006	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BFPMillipore2_68_S102_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	116350.99999999999	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BFPMillipore3_69_S103_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	93238.00000000001	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BFPUltra1_73_fastq	EXR-LLAUR1AVB5CS-AN	84724.00000000001	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BFPUltra2_74_S108_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	186900.0	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BFPUltra3_75_S109_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	67177.0	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BFPmiRCury1_91_S124_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	23688.0	Plasma	FAIL	Other			True
+sample_BFPmiRCury2_92_S125_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	15294.0	Plasma	FAIL	Other			True
+sample_BFPmiRCury3_93_S126_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	4842.0	Plasma	FAIL	Other			True
+sample_BFPmiRNeasy1_61_S104_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	26775.000000000004	Plasma	FAIL	miRNeasy (Qiagen)			True
+sample_BFPmiRNeasy2_62_S98_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	14.0	Plasma	FAIL	miRNeasy (Qiagen)			True
+sample_BFPmiRNeasy3_63_S152_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1059194.9999999998	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BFSExiqon1_7_S6_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1383533.0000000002	Serum	PASS	miRcury biofluids (Exiqon)			False
+sample_BFSExiqon2_8_S7_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1193651.0	Serum	PASS	miRcury biofluids (Exiqon)			False
+sample_BFSExiqon3_9_S8_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1335900.0	Serum	PASS	miRcury biofluids (Exiqon)			False
+sample_BFSExoQuick1_37_S36_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1482731.9999999998	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_BFSExoQuick2_38_S37_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1481404.9999999998	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_BFSExoQuick3_39_S38_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1823627.9999999995	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_BFSExoRNeasy1_1_S1_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	926349.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSExoRNeasy2_2_S2_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1502754.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSExoRNeasy3_3_S3_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1683251.0000000002	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSME1_31_S122_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	413094.00000000006	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSME2_32_S78_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	476253.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSME3_33_S32_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	352103.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSMillipore1_19_S18_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	174224.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSMillipore2_20_S19_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	545101.9999999995	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSMillipore3_21_fastq	EXR-LLAUR1AVB5CS-AN	225534.00000000003	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSUltra1_25_S24_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	589382.9999999999	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSUltra2_26_S25_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1940384.9999999998	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSUltra3_27_S26_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1388951.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BFSmiRCury1_43_S174_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	769869.9999999999	Serum	PASS	Other			False
+sample_BFSmiRCury2_44_S175_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	391137.0	Serum	PASS	Other			False
+sample_BFSmiRCury3_45_fastq	EXR-LLAUR1AVB5CS-AN	85876.0	Serum	FAIL	Other			True
+sample_BFSmiRNeasy2_14_S151_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1176039.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMPExiqon1_58_S95_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	684782.0000000001	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_BMPExiqon2_59_S96_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	558775.0	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_BMPExiqon3_60_S97_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	719468.0	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_BMPExoQuick1_88_S121_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	321726.0	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_BMPExoQuick2_89_S122_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	329729.0	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_BMPExoQuick3_90_S123_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	236559.00000000003	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_BMPExoRNeasy2_53_S90_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	1272268.0	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BMPExoRNeasy3_54_S91_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	1016160.0000000001	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BMPME1_82_fastq	EXR-LLAUR1AVB5CS-AN	77371.0	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BMPME2_83_S116_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	81372.00000000001	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BMPME3_84_S117_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	48273.0	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BMPMillipore1_70_S104_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	143144.00000000003	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BMPMillipore2_71_S105_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	251101.0	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BMPMillipore3_72_S106_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	112629.99999999999	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BMPUltra1_76_S110_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	334578.99999999994	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BMPUltra2_77_S120_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	523130.99999999994	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BMPUltra3_78_S111_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	214803.99999999997	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_BMPmiRCury1_94_S127_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	44268.0	Plasma	PASS	Other			True
+sample_BMPmiRCury2_95_S138_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	108242.0	Plasma	PASS	Other			False
+sample_BMPmiRNeasy2_65_S154_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	91390.00000000004	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_BMPmiRNeasy3_66_S109_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	20918.000000000033	Plasma	FAIL	miRNeasy (Qiagen)			True
+sample_BMSExiqon1_10_S9_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	668031.9999999999	Serum	PASS	miRcury biofluids (Exiqon)			False
+sample_BMSExiqon2_11_S10_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1379642.9999999998	Serum	PASS	miRcury biofluids (Exiqon)			False
+sample_BMSExiqon3_12_S11_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1258042.0	Serum	PASS	miRcury biofluids (Exiqon)			False
+sample_BMSExoQuick1_40_S39_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1577471.9999999993	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_BMSExoQuick2_41_S40_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	280573.0	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_BMSExoQuick3_42_S41_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1046262.9999999999	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_BMSExoRNeasy2_5_S4_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1513429.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSExoRNeasy3_6_S5_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	2384237.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSME1_34_fastq	EXR-LLAUR1AVB5CS-AN	173040.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSME2_35_fastq	EXR-LLAUR1AVB5CS-AN	92395.99999999997	Serum	PASS	miRNeasy (Qiagen)			True
+sample_BMSME3_36_S35_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	421999.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSMillipore1_22_S21_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	391911.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSMillipore2_23_S22_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	344203.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSMillipore3_24_S23_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	361589.99999999994	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSUltra1_28_S27_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1263880.9999999998	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSUltra2_29_S28_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1800722.9999999998	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSUltra3_30_S29_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1452090.9999999995	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSmiRCury1_46_S45_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	58356.0	Serum	PASS	Other			True
+sample_BMSmiRCury2_47_S178_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	114004.0	Serum	PASS	Other			False
+sample_BMSmiRNeasy1_16_S153_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	154172.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSmiRNeasy2_17_S108_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	412955.00000000006	Serum	PASS	miRNeasy (Qiagen)			False
+sample_BMSmiRNeasy3_18_Idx2_S193_L001_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	22513.999999999996	Serum	PASS	miRNeasy (Qiagen)			True
+sample_BMSmiRNeasy3_18_S155_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	74603.99999999997	Serum	FAIL	miRNeasy (Qiagen)			True
+sample_DFPExoRNeasy1_177_fastq	EXR-LLAUR1AVB5CS-AN	447592.00000000006	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_DFPmiRNeasy1_181_S169_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	663789.9999999999	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_DMPExiqon1_180_fastq	EXR-LLAUR1AVB5CS-AN	124074.00000000001	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_DMPExoRNeasy1_178_fastq	EXR-LLAUR1AVB5CS-AN	682136.0000000001	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_GFPExiqon1_123_fastq	EXR-LLAUR1AVB5CS-AN	1473737.0000000002	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_GFPExoRNeasy1_121_fastq	EXR-LLAUR1AVB5CS-AN	2404322.0000000005	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_GFPME1_131_fastq	EXR-LLAUR1AVB5CS-AN	214810.0	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_GFPNor1_133_fastq	EXR-LLAUR1AVB5CS-AN	1976007.0	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFPNor2_134_fastq	EXR-LLAUR1AVB5CS-AN	2466586.0	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFPNor3_135_S170_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	32324.0	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			True
+sample_GFPNor_Ami1_139_fastq	EXR-LLAUR1AVB5CS-AN	453515.99999999994	Plasma	FAIL	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFPNor_Ami2_140_fastq	EXR-LLAUR1AVB5CS-AN	323426.00000000006	Plasma	FAIL	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFPNor_Ami3_141_fastq	EXR-LLAUR1AVB5CS-AN	473516.0	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFPUltra1_129_S166_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	380071.9999999998	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_GFPmiRNeasy1_125_S164_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	296987.99999999965	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_GFSME1_107_S148_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	187538.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_GFSNor1_109_S59_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	846095.0	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFSNor2_110_S60_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	763810.0000000001	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFSNor3_111_S106_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	19583.000000000004	Serum	FAIL	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			True
+sample_GFSNor_Ami1_115_S65_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	253808.99999999997	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFSNor_Ami2_116_S66_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	361926.99999999994	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFSNor_Ami3_117_S112_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	163467.0	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GFSUltra1_105_S146_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	794523.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_GMPExiqon1_124_fastq	EXR-LLAUR1AVB5CS-AN	3406310.0	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_GMPExoRNeasy1_122_fastq	EXR-LLAUR1AVB5CS-AN	3849526.9999999995	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_GMPME1_132_S168_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	662577.0000000001	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_GMPMillipore1_128_S165_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	73468.0	Plasma	PASS	miRNeasy (Qiagen)			True
+sample_GMPNor1_136_S171_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	26217.999999999996	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			True
+sample_GMPNor2_137_fastq	EXR-LLAUR1AVB5CS-AN	2219073.0	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GMPNor3_138_S173_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	2505548.0000000005	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GMPNor_Ami1_142_fastq	EXR-LLAUR1AVB5CS-AN	496750.0	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GMPNor_Ami2_143_S128_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	0.0	Plasma	FAIL	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			True
+sample_GMPNor_Ami3_144_fastq	EXR-LLAUR1AVB5CS-AN	413883.99999999994	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GMPUltra1_130_S167_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	277833.0	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_GMPmiRNeasy1_126_S121_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	26252.0	Plasma	FAIL	miRNeasy (Qiagen)			True
+sample_GMSExoRNeasy1_98_S140_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	351603.00000000006	Serum	PASS	miRNeasy (Qiagen)			False
+sample_GMSME1_108_S149_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	390470.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_GMSMillipore1_104_S145_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	92769.0	Serum	PASS	miRNeasy (Qiagen)			True
+sample_GMSNor1_112_S62_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1060488.0	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GMSNor2_113_S99_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	3.0	Serum	FAIL	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			True
+sample_GMSNor3_114_S100_L003_R1_001_115_180_fastq	EXR-LLAUR1AVB5CS-AN	4.0	Serum	FAIL	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			True
+sample_GMSNor_Ami1_118_S68_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	76.0	Serum	FAIL	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			True
+sample_GMSNor_Ami2_119_S69_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	373161.0	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GMSNor_Ami3_120_S70_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	554457.0000000001	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_GMSUltra1_106_S147_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	886822.9999999999	Serum	PASS	miRNeasy (Qiagen)			False
+sample_LUExoQuickFP1_Idx14_S94_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	1933.0	Urine	PASS	SeraMir Kit (System Biosciences)			True
+sample_LUExoQuickFP2_Idx16_S96_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	24549.0	Urine	PASS	SeraMir Kit (System Biosciences)			True
+sample_LUExoQuickFP3_Idx17_S97_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	12866.0	Urine	PASS	SeraMir Kit (System Biosciences)			True
+sample_LUExoQuickMP1_Idx2_S82_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	176.0	Urine	FAIL	SeraMir Kit (System Biosciences)			True
+sample_LUExoQuickMP2_Idx4_S84_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	9678.000000000002	Urine	PASS	SeraMir Kit (System Biosciences)			True
+sample_LUExoQuickMP3_Idx6_S86_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	9731.0	Urine	PASS	SeraMir Kit (System Biosciences)			True
+sample_LUExoRNeasyFP1_Idx22_S102_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	108555.0	Urine	PASS	miRNeasy (Qiagen)			False
+sample_LUExoRNeasyFP2_Idx24_S104_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	124620.0	Urine	PASS	miRNeasy (Qiagen)			False
+sample_LUExoRNeasyFP3_Idx26_S106_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	47190.99999999999	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUExoRNeasyMP1_Idx25_S105_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	84703.99999999999	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUExoRNeasyMP2_Idx27_S107_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	63084.99999999999	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUExoRNeasyMP3_Idx29_S109_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	91233.0	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUHomebrewFP1_Idx45_S149_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	64714.0	Urine	PASS	Other			True
+sample_LUHomebrewFP2_Idx47_S151_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	85097.0	Urine	PASS	Other			True
+sample_LUHomebrewFP3_Idx34_S138_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	95640.99999999999	Urine	PASS	Other			True
+sample_LUHomebrewMP1_Idx33_S137_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	121.0	Urine	FAIL	Other			True
+sample_LUHomebrewMP2_Idx35_S139_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	12.0	Urine	FAIL	Other			True
+sample_LUHomebrewMP3_Idx37_S141_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	296.0	Urine	FAIL	Other			True
+sample_LUMilliporeFP1_Idx19_S131_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	591.9999999999995	Urine	FAIL	miRNeasy (Qiagen)			True
+sample_LUMilliporeFP2_Idx20_S132_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	3772.0	Urine	FAIL	miRNeasy (Qiagen)			True
+sample_LUMilliporeFP3_Idx21_S133_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	237.0	Urine	FAIL	miRNeasy (Qiagen)			True
+sample_LUMilliporeMP1_Idx42_S122_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	29334.000000000004	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUMilliporeMP2_Idx44_S124_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	56196.0	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUMilliporeMP3_Idx46_S126_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	8575.999999999998	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUUltracentrifugeFP1_Idx45_S125_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	46913.0	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUUltracentrifugeFP2_Idx47_S127_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	129381.99999999999	Urine	PASS	miRNeasy (Qiagen)			False
+sample_LUUltracentrifugeFP3_Idx34_S114_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	86502.00000000001	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUUltracentrifugeMP1_Idx33_S113_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	13457.0	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUUltracentrifugeMP2_Idx35_S115_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	80351.0	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUUltracentrifugeMP3_Idx37_S117_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	67073.0	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUmiRNeasyFP1_Idx5_S85_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	55.0	Urine	FAIL	miRNeasy (Qiagen)			True
+sample_LUmiRNeasyFP2_Idx7_S87_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	4.0	Urine	FAIL	miRNeasy (Qiagen)			True
+sample_LUmiRNeasyFP3_Idx9_S89_L003_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	18070.999999999996	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUmiRNeasyMP1_Idx42_S146_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	4092.0	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUmiRNeasyMP2_Idx44_S148_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	4983.0	Urine	PASS	miRNeasy (Qiagen)			True
+sample_LUmiRNeasyMP3_Idx46_S150_L004_R1_001_fastq	EXR-LLAUR1AVB5CS-AN	9397.0	Urine	PASS	miRNeasy (Qiagen)			True
+sample_SFPExiqon1_163_fastq	EXR-LLAUR1AVB5CS-AN	5654938.000000001	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_SFPExoQuick1_171_S162_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1168260.9999999998	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_SFPExoQuick2_172_S163_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	2008650.0	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_SFPExoQuick3_173_fastq	EXR-LLAUR1AVB5CS-AN	2592706.9999999995	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_SFPExoRNeasy1_161_fastq	EXR-LLAUR1AVB5CS-AN	1874309.0	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_SFPNor1_167_fastq	EXR-LLAUR1AVB5CS-AN	7898206.999999999	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_SFPNor_Ami2_169_S160_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	2009757.0000000002	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_SFSExiqon1_147_S50_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1251339.0	Serum	PASS	miRcury biofluids (Exiqon)			False
+sample_SFSExoQuick1_155_S57_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	640101.0	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_SFSExoQuick2_156_S58_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	837747.9999999999	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_SFSExoQuick3_157_S12_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	585824.0	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_SFSExoRNeasy1_145_S48_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	589417.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_SFSNor1_151_S53_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	2126363.0	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_SFSNor_Ami2_153_S55_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1523542.0	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_SFSmiRNeasy2_149_S142_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	228634.0	Serum	PASS	miRNeasy (Qiagen)			False
+sample_SMPExiqon1_164_fastq	EXR-LLAUR1AVB5CS-AN	3532754.0	Plasma	PASS	miRcury biofluids (Exiqon)			False
+sample_SMPExoQuick2_175_fastq	EXR-LLAUR1AVB5CS-AN	2633059.9999999995	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_SMPExoQuick3_176_S123_L007_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	488691.99999999994	Plasma	PASS	SeraMir Kit (System Biosciences)			False
+sample_SMPExoRNeasy1_162_fastq	EXR-LLAUR1AVB5CS-AN	1401240.9999999998	Plasma	PASS	miRNeasy (Qiagen)			False
+sample_SMPNor1_168_fastq	EXR-LLAUR1AVB5CS-AN	4514466.0	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_SMPNor_Ami2_170_S161_L008_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1374248.9999999998	Plasma	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_SMSExoQuick1_158_S13_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1264707.0	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_SMSExoQuick2_159_S14_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	512312.0	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_SMSExoQuick3_160_S15_L005_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1129871.9999999998	Serum	PASS	SeraMir Kit (System Biosciences)			False
+sample_SMSNor1_152_S54_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	7211465.999999999	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_SMSNor_Ami2_154_S56_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	1347341.0	Serum	PASS	Plasma/Serum Circulating and Exosomal RNA Purification Kit(Norgen Biotek)			False
+sample_SMSmiRNeasy2_150_S52_L006_R1_001_125_160_fastq	EXR-LLAUR1AVB5CS-AN	768111.0	Serum	PASS	miRNeasy (Qiagen)			False

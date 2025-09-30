@@ -1,0 +1,52 @@
+{
+  "script": {
+    "name": "tmm_voom_models.R",
+    "path": "/Users/austinmorrissey/2nd MicroRNA analysis september/analysis/tmm_voom_models.R",
+    "md5_hash": "7c7d6805d4d3cd464dad4d543b1538c4",
+    "run_timestamp": "2025-09-29 19:54:50 EDT"
+  },
+  "dataset": {
+    "id": "EXR-KJENS1RID1-AN",
+    "analysis_type": "TMM normalization + limma-voom differential expression"
+  },
+  "r_environment": {
+    "r_version": "4.5.0",
+    "platform": "aarch64-apple-darwin24.4.0",
+    "running": "macOS Sequoia 15.6.1",
+    "locale": "en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8",
+    "base_packages": ["stats", "graphics", "grDevices", "utils", "datasets", "methods", "base"],
+    "loaded_packages": {
+      "jsonlite": {
+        "package": "jsonlite",
+        "version": "2.0.0",
+        "date": "2025-03-27 06:40:02 UTC"
+      },
+      "edgeR": {
+        "package": "edgeR",
+        "version": "4.6.3",
+        "date": "2025-07-05"
+      },
+      "limma": {
+        "package": "limma",
+        "version": "3.64.1",
+        "date": "2025-05-21"
+      }
+    }
+  },
+  "input_data": {
+    "counts_file": "filtered/miRNA_counts.filtered.tsv",
+    "metadata_file": "sample_metadata.tsv"
+  },
+  "methods": {
+    "normalization": "TMM (edgeR::calcNormFactors)",
+    "transformation": "voom with precision weights",
+    "differential_expression": "limma::lmFit + eBayes",
+    "multiple_testing_correction": "Benjamini-Hochberg FDR",
+    "top_marker_selection": "Highest AUC among miRNAs with logFC>0 and adj.P.Val<0.05"
+  },
+  "outputs": {
+    "differential_expression_tables": true,
+    "tmm_normalized_cpm": true,
+    "summary_statistics": true
+  }
+}

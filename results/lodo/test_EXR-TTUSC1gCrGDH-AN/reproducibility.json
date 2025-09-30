@@ -1,0 +1,38 @@
+{
+  "script": {
+    "path": "/Users/austinmorrissey/2nd MicroRNA analysis september/analysis/lodo_validation.py",
+    "md5": "98f6ede049f786a08b3102b986ca1a30",
+    "timestamp": "2025-09-29T23:49:00.905293"
+  },
+  "random_state": 20250929,
+  "environment": {
+    "python": "3.x",
+    "sklearn": "1.7.2",
+    "numpy": "2.3.3",
+    "pandas": "2.3.2"
+  },
+  "data_sources": {
+    "expression_matrix": "results/derived/cross_cohort/tmm_log2cpm_batch_corrected.tsv",
+    "metadata": "results/derived/cross_cohort/sample_metadata_merged.tsv",
+    "n_features": 364,
+    "n_samples": 936
+  },
+  "models": {
+    "logistic": {
+      "class": "LogisticRegression",
+      "C": 1.0,
+      "penalty": "l2",
+      "multi_class": "multinomial",
+      "solver": "lbfgs",
+      "max_iter": 1000
+    },
+    "random_forest": {
+      "class": "RandomForestClassifier",
+      "n_estimators": 100,
+      "max_depth": 10
+    }
+  },
+  "preprocessing": {
+    "standardization": "StandardScaler (fit on train, apply to test)"
+  }
+}

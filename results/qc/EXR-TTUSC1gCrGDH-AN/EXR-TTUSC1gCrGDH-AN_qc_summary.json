@@ -1,0 +1,20 @@
+{
+  "dataset_id": "EXR-TTUSC1gCrGDH-AN",
+  "n_samples": 312,
+  "n_miRNAs": 729,
+  "library_size": {
+    "min": 8898.0,
+    "median": 904952.1476190477,
+    "max": 13938619.333333332
+  },
+  "detection_rate": {
+    "min": 89,
+    "median": 549.5,
+    "max": 721
+  },
+  "biofluids": [
+    "Plasma",
+    "Serum"
+  ],
+  "timestamp": "2025-09-29T20:04:32.328424"
+}

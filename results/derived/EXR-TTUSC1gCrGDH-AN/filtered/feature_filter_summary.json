@@ -1,0 +1,12 @@
+{
+  "dataset_id": "EXR-TTUSC1gCrGDH-AN",
+  "min_cpm": 1.0,
+  "min_detect_samples": 63,
+  "min_detect_fraction": 0.2,
+  "min_log2_variance": 0.01,
+  "n_features_initial": 2124,
+  "n_features_detect": 729,
+  "n_features_variance": 1821,
+  "n_features_filtered": 729,
+  "n_samples": 312
+}

@@ -1,0 +1,38 @@
+{
+  "Plasma": {
+    "tier": "Tier 2 (Quality-Controlled)",
+    "n_markers": 76,
+    "rationale": "LODO: 91-95% recall but 59% precision on LLAUR - over-calls under stress",
+    "top_5_markers": [
+      "hsa-miR-106b-3p",
+      "hsa-miR-144-3p",
+      "hsa-miR-25-3p",
+      "hsa-miR-4732-3p",
+      "hsa-miR-107"
+    ]
+  },
+  "Serum": {
+    "tier": "Tier 2 (Quality-Controlled)",
+    "n_markers": 39,
+    "rationale": "LODO: 88% F1 on clean samples, 23% recall on LLAUR - quality-sensitive",
+    "top_5_markers": [
+      "hsa-miR-223-5p",
+      "hsa-miR-744-5p",
+      "hsa-miR-146a-5p",
+      "hsa-miR-191-5p",
+      "hsa-miR-199a-5p"
+    ]
+  },
+  "Urine": {
+    "tier": "Tier 1 (Court-Ready)",
+    "n_markers": 111,
+    "rationale": "LODO: 91-97% F1 across all conditions, robust to outliers",
+    "top_5_markers": [
+      "hsa-miR-30c-2-3p",
+      "hsa-miR-204-5p",
+      "hsa-miR-30a-3p",
+      "hsa-miR-200b-3p",
+      "hsa-miR-204-3p"
+    ]
+  }
+}

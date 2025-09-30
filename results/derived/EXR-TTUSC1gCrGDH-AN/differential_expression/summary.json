@@ -1,0 +1,40 @@
+{
+  "dataset_id": "EXR-TTUSC1gCrGDH-AN",
+  "n_miRNAs": 729,
+  "n_samples": 312,
+  "biofluids_tested": ["Plasma", "Serum"],
+  "tmm_factor_range": [0.3015, 2.4684],
+  "top_marker_selection_criteria": "Highest AUC among miRNAs with logFC>0 and FDR<0.05; fallback to lowest FDR if none upregulated",
+  "analyses": [
+    {
+      "biofluid": "Plasma",
+      "n_target": 216,
+      "n_rest": 96,
+      "n_significant_fdr05": 463,
+      "n_logFC_gt2": 23,
+      "n_upregulated_sig": 220,
+      "top_marker": {
+        "miRNA": "hsa-miR-486-5p",
+        "logFC": 2.1835,
+        "AUC": 0.9719,
+        "adj_P_Val": 3.8119e-63,
+        "selection_criteria": "highest AUC among upregulated (logFC>0, FDR<0.05)"
+      }
+    },
+    {
+      "biofluid": "Serum",
+      "n_target": 96,
+      "n_rest": 216,
+      "n_significant_fdr05": 463,
+      "n_logFC_gt2": 23,
+      "n_upregulated_sig": 243,
+      "top_marker": {
+        "miRNA": "hsa-miR-223-3p",
+        "logFC": 2.4512,
+        "AUC": 0.9515,
+        "adj_P_Val": 2.3922e-60,
+        "selection_criteria": "highest AUC among upregulated (logFC>0, FDR<0.05)"
+      }
+    }
+  ]
+}

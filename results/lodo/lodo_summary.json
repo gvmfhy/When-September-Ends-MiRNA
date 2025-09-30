@@ -1,0 +1,700 @@
+{
+  "lodo_folds": [
+    {
+      "test_dataset": "EXR-KJENS1RID1-AN",
+      "train_datasets": [
+        "EXR-LLAUR1AVB5CS-AN",
+        "EXR-TTUSC1gCrGDH-AN"
+      ],
+      "n_train": 508,
+      "n_test": 428,
+      "train_biofluids": {
+        "Plasma": 299,
+        "Serum": 173,
+        "Urine": 36
+      },
+      "test_biofluids": {
+        "Urine": 203,
+        "Plasma": 180,
+        "Saliva": 45
+      },
+      "models": {
+        "logistic": {
+          "accuracy": 0.8387850467289719,
+          "macro_avg": {
+            "precision": 0.4447916151066673,
+            "recall": 0.4677681992337165,
+            "f1-score": 0.45556060802910225
+          },
+          "weighted_avg": {
+            "precision": 0.7946471815743106,
+            "recall": 0.8387850467289719,
+            "f1-score": 0.815352989816399
+          },
+          "per_class": {
+            "Plasma": {
+              "precision": 0.9157303370786517,
+              "recall": 0.9055555555555556,
+              "f1-score": 0.9106145251396648
+            },
+            "Saliva": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            },
+            "Serum": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            },
+            "Urine": {
+              "precision": 0.8634361233480177,
+              "recall": 0.9655172413793104,
+              "f1-score": 0.9116279069767442
+            }
+          },
+          "roc_auc": {
+            "Plasma": 0.9833333333333333,
+            "Saliva": 0.855120394545982,
+            "Serum": null,
+            "Urine": null
+          },
+          "top_features": [
+            {
+              "miRNA": "hsa-miR-193a-5p",
+              "coef_Plasma": -0.42124194976328555,
+              "coef_Serum": 0.47282693717442054,
+              "coef_Urine": -0.05158498741113488,
+              "mean_abs_coef": 0.31521795811628034
+            },
+            {
+              "miRNA": "hsa-miR-145-5p",
+              "coef_Plasma": 0.4534404897411557,
+              "coef_Serum": -0.4119864041400892,
+              "coef_Urine": -0.041454085601065845,
+              "mean_abs_coef": 0.3022936598274369
+            },
+            {
+              "miRNA": "hsa-miR-543",
+              "coef_Plasma": -0.37501063183121947,
+              "coef_Serum": 0.43090607092776956,
+              "coef_Urine": -0.05589543909654917,
+              "mean_abs_coef": 0.28727071395184606
+            },
+            {
+              "miRNA": "hsa-miR-1246",
+              "coef_Plasma": -0.40714344271277547,
+              "coef_Serum": 0.3958907106846398,
+              "coef_Urine": 0.011252732028136935,
+              "mean_abs_coef": 0.2714289618085174
+            },
+            {
+              "miRNA": "hsa-miR-4732-3p",
+              "coef_Plasma": 0.3892687268126797,
+              "coef_Serum": -0.36881476306334726,
+              "coef_Urine": -0.020453963749329927,
+              "mean_abs_coef": 0.2595124845417856
+            },
+            {
+              "miRNA": "hsa-miR-3614-5p",
+              "coef_Plasma": -0.3441467536860294,
+              "coef_Serum": 0.38520850345226504,
+              "coef_Urine": -0.041061749766238095,
+              "mean_abs_coef": 0.2568056689681775
+            },
+            {
+              "miRNA": "hsa-miR-411-3p",
+              "coef_Plasma": -0.362116100763885,
+              "coef_Serum": 0.3840436087482051,
+              "coef_Urine": -0.021927507984321457,
+              "mean_abs_coef": 0.25602907249880386
+            },
+            {
+              "miRNA": "hsa-miR-379-5p",
+              "coef_Plasma": -0.3238731675108404,
+              "coef_Serum": 0.36744847022431165,
+              "coef_Urine": -0.04357530271347343,
+              "mean_abs_coef": 0.2449656468162085
+            },
+            {
+              "miRNA": "hsa-miR-3074-5p",
+              "coef_Plasma": 0.33524314572289465,
+              "coef_Serum": -0.31731116745176274,
+              "coef_Urine": -0.017931978271131733,
+              "mean_abs_coef": 0.22349543048192969
+            },
+            {
+              "miRNA": "hsa-miR-1287-5p",
+              "coef_Plasma": 0.3301386182279292,
+              "coef_Serum": -0.32296835631720094,
+              "coef_Urine": -0.007170261910730268,
+              "mean_abs_coef": 0.22009241215195344
+            }
+          ]
+        },
+        "random_forest": {
+          "accuracy": 0.7593457943925234,
+          "macro_avg": {
+            "precision": 0.43351704879482655,
+            "recall": 0.4208607006020799,
+            "f1-score": 0.42217628923766815
+          },
+          "weighted_avg": {
+            "precision": 0.7721832127335762,
+            "recall": 0.7593457943925234,
+            "f1-score": 0.756953030049034
+          },
+          "per_class": {
+            "Plasma": {
+              "precision": 0.9357142857142857,
+              "recall": 0.7277777777777777,
+              "f1-score": 0.81875
+            },
+            "Saliva": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            },
+            "Serum": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            },
+            "Urine": {
+              "precision": 0.7983539094650206,
+              "recall": 0.9556650246305419,
+              "f1-score": 0.8699551569506726
+            }
+          },
+          "roc_auc": {
+            "Plasma": 0.9243727598566308,
+            "Saliva": 0.6259936176385263,
+            "Serum": null,
+            "Urine": null
+          },
+          "top_features": [
+            {
+              "miRNA": "hsa-miR-744-5p",
+              "importance": 0.029326598158843756
+            },
+            {
+              "miRNA": "hsa-miR-223-5p",
+              "importance": 0.028826218925902168
+            },
+            {
+              "miRNA": "hsa-miR-96-5p",
+              "importance": 0.028594174857810736
+            },
+            {
+              "miRNA": "hsa-miR-543",
+              "importance": 0.02851077675929275
+            },
+            {
+              "miRNA": "hsa-miR-379-5p",
+              "importance": 0.024321139322282616
+            },
+            {
+              "miRNA": "hsa-miR-149-5p",
+              "importance": 0.020418101444124464
+            },
+            {
+              "miRNA": "hsa-miR-7976",
+              "importance": 0.018847720510864877
+            },
+            {
+              "miRNA": "hsa-let-7i-3p",
+              "importance": 0.018715955347051325
+            },
+            {
+              "miRNA": "hsa-miR-5189-3p",
+              "importance": 0.018266322353036466
+            },
+            {
+              "miRNA": "hsa-miR-4326",
+              "importance": 0.017916836102230313
+            }
+          ]
+        }
+      }
+    },
+    {
+      "test_dataset": "EXR-LLAUR1AVB5CS-AN",
+      "train_datasets": [
+        "EXR-KJENS1RID1-AN",
+        "EXR-TTUSC1gCrGDH-AN"
+      ],
+      "n_train": 740,
+      "n_test": 196,
+      "train_biofluids": {
+        "Plasma": 396,
+        "Urine": 203,
+        "Serum": 96,
+        "Saliva": 45
+      },
+      "test_biofluids": {
+        "Plasma": 83,
+        "Serum": 77,
+        "Urine": 36
+      },
+      "models": {
+        "logistic": {
+          "accuracy": 0.673469387755102,
+          "macro_avg": {
+            "precision": 0.6047293295427624,
+            "recall": 0.5394489212260296,
+            "f1-score": 0.5169199400190183
+          },
+          "weighted_avg": {
+            "precision": 0.7649634480657934,
+            "recall": 0.673469387755102,
+            "f1-score": 0.6312188469857989
+          },
+          "per_class": {
+            "Plasma": {
+              "precision": 0.5895522388059702,
+              "recall": 0.9518072289156626,
+              "f1-score": 0.728110599078341
+            },
+            "Saliva": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            },
+            "Serum": {
+              "precision": 0.8571428571428571,
+              "recall": 0.23376623376623376,
+              "f1-score": 0.3673469387755102
+            },
+            "Urine": {
+              "precision": 0.9722222222222222,
+              "recall": 0.9722222222222222,
+              "f1-score": 0.9722222222222222
+            }
+          },
+          "roc_auc": {
+            "Plasma": 0.8175711696342894,
+            "Saliva": null,
+            "Serum": 0.8092327840226999,
+            "Urine": 0.9973958333333333
+          },
+          "top_features": [
+            {
+              "miRNA": "hsa-miR-450a-5p",
+              "coef_Plasma": -0.3021949827446697,
+              "coef_Saliva": 0.07398758647001141,
+              "coef_Serum": 0.2531436191159059,
+              "coef_Urine": -0.024936222841246306,
+              "mean_abs_coef": 0.16356560279295831
+            },
+            {
+              "miRNA": "hsa-miR-223-3p",
+              "coef_Plasma": -0.18182557302500288,
+              "coef_Saliva": 0.1173617467451372,
+              "coef_Serum": 0.19825092250170176,
+              "coef_Urine": -0.13378709622183557,
+              "mean_abs_coef": 0.15780633462341936
+            },
+            {
+              "miRNA": "hsa-miR-1277-5p",
+              "coef_Plasma": -0.26259299661323854,
+              "coef_Saliva": 0.03323562923763384,
+              "coef_Serum": 0.27393669480458266,
+              "coef_Urine": -0.04457932742898154,
+              "mean_abs_coef": 0.15358616202110914
+            },
+            {
+              "miRNA": "hsa-miR-21-5p",
+              "coef_Plasma": 0.2749143575441043,
+              "coef_Saliva": 0.017086048347943507,
+              "coef_Serum": -0.3047791431484757,
+              "coef_Urine": 0.012778737256429567,
+              "mean_abs_coef": 0.15238957157423827
+            },
+            {
+              "miRNA": "hsa-miR-27b-3p",
+              "coef_Plasma": 0.24961843782489054,
+              "coef_Saliva": 0.022743989042496495,
+              "coef_Serum": -0.2796330453493963,
+              "coef_Urine": 0.007270618482012715,
+              "mean_abs_coef": 0.13981652267469902
+            },
+            {
+              "miRNA": "hsa-miR-1229-3p",
+              "coef_Plasma": -0.09161091251141612,
+              "coef_Saliva": -0.18123700359530778,
+              "coef_Serum": 0.1361167401697666,
+              "coef_Urine": 0.13673117593695555,
+              "mean_abs_coef": 0.1364239580533615
+            },
+            {
+              "miRNA": "hsa-miR-378b",
+              "coef_Plasma": -0.1455998582401537,
+              "coef_Saliva": -0.09974616724896335,
+              "coef_Serum": 0.2633432071815048,
+              "coef_Urine": -0.01799718169239107,
+              "mean_abs_coef": 0.13167160359075322
+            },
+            {
+              "miRNA": "hsa-miR-543",
+              "coef_Plasma": -0.24291188759290175,
+              "coef_Saliva": 0.014772524377438768,
+              "coef_Serum": 0.24040415581360386,
+              "coef_Urine": -0.012264792598140752,
+              "mean_abs_coef": 0.12758834009552128
+            },
+            {
+              "miRNA": "hsa-miR-1246",
+              "coef_Plasma": -0.24958314952903665,
+              "coef_Saliva": 0.14611834687033085,
+              "coef_Serum": 0.06577899564192521,
+              "coef_Urine": 0.03768580701677986,
+              "mean_abs_coef": 0.12479157476451815
+            },
+            {
+              "miRNA": "hsa-miR-548ap-5p|hsa-miR-548j-5p",
+              "coef_Plasma": -0.1718250465539098,
+              "coef_Saliva": 0.04931697223633603,
+              "coef_Serum": 0.1965484650874918,
+              "coef_Urine": -0.07404039076992378,
+              "mean_abs_coef": 0.12293271866191535
+            }
+          ]
+        },
+        "random_forest": {
+          "accuracy": 0.5714285714285714,
+          "macro_avg": {
+            "precision": 0.37425149700598803,
+            "recall": 0.4513888888888889,
+            "f1-score": 0.3890769230769231
+          },
+          "weighted_avg": {
+            "precision": 0.3941402908468777,
+            "recall": 0.5714285714285714,
+            "f1-score": 0.44507692307692304
+          },
+          "per_class": {
+            "Plasma": {
+              "precision": 0.49700598802395207,
+              "recall": 1.0,
+              "f1-score": 0.664
+            },
+            "Saliva": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            },
+            "Serum": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            },
+            "Urine": {
+              "precision": 1.0,
+              "recall": 0.8055555555555556,
+              "f1-score": 0.8923076923076924
+            }
+          },
+          "roc_auc": {
+            "Plasma": 0.8124000426484701,
+            "Saliva": null,
+            "Serum": 0.8099421586816544,
+            "Urine": 0.9964409722222223
+          },
+          "top_features": [
+            {
+              "miRNA": "hsa-miR-30a-3p",
+              "importance": 0.04166645865602637
+            },
+            {
+              "miRNA": "hsa-miR-18a-5p",
+              "importance": 0.0326985939994179
+            },
+            {
+              "miRNA": "hsa-miR-10b-5p",
+              "importance": 0.030428563815921354
+            },
+            {
+              "miRNA": "hsa-miR-486-5p",
+              "importance": 0.030032858007654095
+            },
+            {
+              "miRNA": "hsa-miR-200b-3p",
+              "importance": 0.029090436605156512
+            },
+            {
+              "miRNA": "hsa-miR-199a-5p",
+              "importance": 0.02898295476488705
+            },
+            {
+              "miRNA": "hsa-miR-204-5p",
+              "importance": 0.02626880553514325
+            },
+            {
+              "miRNA": "hsa-miR-3074-5p",
+              "importance": 0.02615604078637572
+            },
+            {
+              "miRNA": "hsa-miR-16-2-3p",
+              "importance": 0.024653580669950617
+            },
+            {
+              "miRNA": "hsa-miR-223-3p",
+              "importance": 0.022623079043854563
+            }
+          ]
+        }
+      }
+    },
+    {
+      "test_dataset": "EXR-TTUSC1gCrGDH-AN",
+      "train_datasets": [
+        "EXR-KJENS1RID1-AN",
+        "EXR-LLAUR1AVB5CS-AN"
+      ],
+      "n_train": 624,
+      "n_test": 312,
+      "train_biofluids": {
+        "Plasma": 263,
+        "Urine": 239,
+        "Serum": 77,
+        "Saliva": 45
+      },
+      "test_biofluids": {
+        "Plasma": 216,
+        "Serum": 96
+      },
+      "models": {
+        "logistic": {
+          "accuracy": 0.9230769230769231,
+          "macro_avg": {
+            "precision": 0.45398626740415793,
+            "recall": 0.45630787037037035,
+            "f1-score": 0.45511867657636057
+          },
+          "weighted_avg": {
+            "precision": 0.9235977640517027,
+            "recall": 0.9230769230769231,
+            "f1-score": 0.9232945429061468
+          },
+          "per_class": {
+            "Plasma": {
+              "precision": 0.9485981308411215,
+              "recall": 0.9398148148148148,
+              "f1-score": 0.9441860465116279
+            },
+            "Saliva": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            },
+            "Serum": {
+              "precision": 0.8673469387755102,
+              "recall": 0.8854166666666666,
+              "f1-score": 0.8762886597938144
+            },
+            "Urine": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            }
+          },
+          "roc_auc": {
+            "Plasma": 0.966579861111111,
+            "Saliva": null,
+            "Serum": 0.9701967592592593,
+            "Urine": null
+          },
+          "top_features": [
+            {
+              "miRNA": "hsa-miR-3614-5p",
+              "coef_Plasma": -0.5876894730306222,
+              "coef_Saliva": 0.10838406830258245,
+              "coef_Serum": 0.5173896880921361,
+              "coef_Urine": -0.03808428336409998,
+              "mean_abs_coef": 0.3128868781973602
+            },
+            {
+              "miRNA": "hsa-miR-145-5p",
+              "coef_Plasma": 0.43634967533449104,
+              "coef_Saliva": 0.1053507728648227,
+              "coef_Serum": -0.4934974165946075,
+              "coef_Urine": -0.04820303160471101,
+              "mean_abs_coef": 0.2708502240996581
+            },
+            {
+              "miRNA": "hsa-miR-1246",
+              "coef_Plasma": -0.4990036359492717,
+              "coef_Saliva": 0.16992487505538145,
+              "coef_Serum": 0.28578636958842657,
+              "coef_Urine": 0.04329239130545929,
+              "mean_abs_coef": 0.24950181797463478
+            },
+            {
+              "miRNA": "hsa-miR-543",
+              "coef_Plasma": -0.36129105956523494,
+              "coef_Saliva": 0.033528031170952065,
+              "coef_Serum": 0.3854582367033039,
+              "coef_Urine": -0.057695208309020245,
+              "mean_abs_coef": 0.2094931339371278
+            },
+            {
+              "miRNA": "hsa-miR-27a-5p",
+              "coef_Plasma": -0.3045657150155099,
+              "coef_Saliva": 0.06293665677142968,
+              "coef_Serum": 0.33741083917783893,
+              "coef_Urine": -0.0957817809337595,
+              "mean_abs_coef": 0.2001737479746345
+            },
+            {
+              "miRNA": "hsa-let-7b-5p",
+              "coef_Plasma": 0.32040569123471196,
+              "coef_Saliva": 0.00820182789845045,
+              "coef_Serum": -0.38993457863902764,
+              "coef_Urine": 0.06132705950586304,
+              "mean_abs_coef": 0.1949672893195133
+            },
+            {
+              "miRNA": "hsa-let-7e-5p",
+              "coef_Plasma": -0.28178219462690557,
+              "coef_Saliva": -0.09128278360863923,
+              "coef_Serum": 0.2946274279137324,
+              "coef_Urine": 0.07843755032181256,
+              "mean_abs_coef": 0.18653248911777245
+            },
+            {
+              "miRNA": "hsa-miR-660-5p",
+              "coef_Plasma": -0.3132131889031859,
+              "coef_Saliva": -0.0593044713762787,
+              "coef_Serum": 0.2854082369446147,
+              "coef_Urine": 0.08710942333484839,
+              "mean_abs_coef": 0.18625883013973193
+            },
+            {
+              "miRNA": "hsa-miR-502-3p",
+              "coef_Plasma": -0.3680980393687274,
+              "coef_Saliva": 0.039044722056624105,
+              "coef_Serum": 0.30290712038720874,
+              "coef_Urine": 0.026146196924893225,
+              "mean_abs_coef": 0.18404901968436335
+            },
+            {
+              "miRNA": "hsa-miR-379-5p",
+              "coef_Plasma": -0.2648060412768837,
+              "coef_Saliva": -0.07488775990677522,
+              "coef_Serum": 0.36336559365041554,
+              "coef_Urine": -0.023671792466760135,
+              "mean_abs_coef": 0.18168279682520863
+            }
+          ]
+        },
+        "random_forest": {
+          "accuracy": 0.6057692307692307,
+          "macro_avg": {
+            "precision": 0.2947681704260652,
+            "recall": 0.3012152777777778,
+            "f1-score": 0.2913053475233215
+          },
+          "weighted_avg": {
+            "precision": 0.6596876807403123,
+            "recall": 0.6057692307692307,
+            "f1-score": 0.6209029441193414
+          },
+          "per_class": {
+            "Plasma": {
+              "precision": 0.7719298245614035,
+              "recall": 0.6111111111111112,
+              "f1-score": 0.6821705426356589
+            },
+            "Saliva": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            },
+            "Serum": {
+              "precision": 0.40714285714285714,
+              "recall": 0.59375,
+              "f1-score": 0.4830508474576271
+            },
+            "Urine": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0
+            }
+          },
+          "roc_auc": {
+            "Plasma": 0.6820746527777777,
+            "Saliva": null,
+            "Serum": 0.6281105324074074,
+            "Urine": null
+          },
+          "top_features": [
+            {
+              "miRNA": "hsa-miR-30a-3p",
+              "importance": 0.042197502479129165
+            },
+            {
+              "miRNA": "hsa-miR-10b-5p",
+              "importance": 0.038195393064932526
+            },
+            {
+              "miRNA": "hsa-miR-200b-3p",
+              "importance": 0.02702491534779837
+            },
+            {
+              "miRNA": "hsa-miR-708-3p",
+              "importance": 0.026970421049871497
+            },
+            {
+              "miRNA": "hsa-miR-17-3p",
+              "importance": 0.025600421625834854
+            },
+            {
+              "miRNA": "hsa-miR-30a-5p",
+              "importance": 0.023196304619612963
+            },
+            {
+              "miRNA": "hsa-miR-486-5p",
+              "importance": 0.022461906448937075
+            },
+            {
+              "miRNA": "hsa-miR-143-3p",
+              "importance": 0.020801973869933783
+            },
+            {
+              "miRNA": "hsa-miR-204-5p",
+              "importance": 0.01991194867276168
+            },
+            {
+              "miRNA": "hsa-miR-200b-5p",
+              "importance": 0.019459224831152613
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "overall_statistics": {
+    "logistic": {
+      "mean_accuracy": 0.8117771191869991,
+      "std_accuracy": 0.1036759423554725,
+      "mean_macro_f1": 0.47586640820816034,
+      "std_macro_f1": 0.029029791381281332,
+      "accuracies_per_fold": {
+        "EXR-KJENS1RID1-AN": 0.8387850467289719,
+        "EXR-LLAUR1AVB5CS-AN": 0.673469387755102,
+        "EXR-TTUSC1gCrGDH-AN": 0.9230769230769231
+      }
+    },
+    "random_forest": {
+      "mean_accuracy": 0.6455145321967751,
+      "std_accuracy": 0.08170266177139186,
+      "mean_macro_f1": 0.3675195199459709,
+      "std_macro_f1": 0.0555598300250146,
+      "accuracies_per_fold": {
+        "EXR-KJENS1RID1-AN": 0.7593457943925234,
+        "EXR-LLAUR1AVB5CS-AN": 0.5714285714285714,
+        "EXR-TTUSC1gCrGDH-AN": 0.6057692307692307
+      }
+    }
+  }
+}

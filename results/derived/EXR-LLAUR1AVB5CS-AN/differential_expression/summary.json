@@ -1,0 +1,55 @@
+{
+  "dataset_id": "EXR-LLAUR1AVB5CS-AN",
+  "n_miRNAs": 454,
+  "n_samples": 196,
+  "biofluids_tested": ["Plasma", "Serum", "Urine"],
+  "tmm_factor_range": [0.2461, 63.2767],
+  "top_marker_selection_criteria": "Highest AUC among miRNAs with logFC>0 and FDR<0.05; fallback to lowest FDR if none upregulated",
+  "analyses": [
+    {
+      "biofluid": "Plasma",
+      "n_target": 83,
+      "n_rest": 113,
+      "n_significant_fdr05": 19,
+      "n_logFC_gt2": 1,
+      "n_upregulated_sig": 13,
+      "top_marker": {
+        "miRNA": "hsa-miR-516b-5p",
+        "logFC": 2.5457,
+        "AUC": 0.6901,
+        "adj_P_Val": 0.0006,
+        "selection_criteria": "highest AUC among upregulated (logFC>0, FDR<0.05)"
+      }
+    },
+    {
+      "biofluid": "Serum",
+      "n_target": 77,
+      "n_rest": 119,
+      "n_significant_fdr05": 200,
+      "n_logFC_gt2": 6,
+      "n_upregulated_sig": 76,
+      "top_marker": {
+        "miRNA": "hsa-miR-185-5p",
+        "logFC": 1.5292,
+        "AUC": 0.7506,
+        "adj_P_Val": 0.0001,
+        "selection_criteria": "highest AUC among upregulated (logFC>0, FDR<0.05)"
+      }
+    },
+    {
+      "biofluid": "Urine",
+      "n_target": 36,
+      "n_rest": 160,
+      "n_significant_fdr05": 365,
+      "n_logFC_gt2": 254,
+      "n_upregulated_sig": 250,
+      "top_marker": {
+        "miRNA": "hsa-miR-204-5p",
+        "logFC": 9.3021,
+        "AUC": 0.9837,
+        "adj_P_Val": 1.4472e-63,
+        "selection_criteria": "highest AUC among upregulated (logFC>0, FDR<0.05)"
+      }
+    }
+  ]
+}
