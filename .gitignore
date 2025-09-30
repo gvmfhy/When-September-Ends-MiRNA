@@ -12,3 +12,6 @@ env/
 
 # macOS artifacts
 .DS_Store
+
+# Temporary working directories
+tmp/

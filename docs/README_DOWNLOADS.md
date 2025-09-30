@@ -69,3 +69,38 @@ This structure keeps immutable source artefacts (`data/raw/`) separate from anal
 - **SRA toolkit missing:** Install via `conda install -c bioconda sra-tools` or Homebrew `brew install sratoolkit` before attempting raw FASTQ retrieval.
 
 Document every manual retrieval in a lab notebook or `data/meta/download_log.md` so that the chain of custody stays intact.
+
+## exRNA Atlas metadata automation
+
+The exRNA Atlas portal requires authentication. Once you log in via the browser,
+you can reuse the session cookie to harvest per-dataset biosample metadata:
+
+1. Copy the value of the `Cookie` header from an authenticated request
+   (Chrome DevTools → Network tab → pick any request → Headers → Request Headers).
+2. Export it in your terminal session:
+   ```bash
+   export EXRNA_COOKIE='gbexat=...; _genboree_session=...'
+   ```
+3. Run the enrichment script:
+   ```bash
+   python scripts/exrna_enrich.py \
+     --catalog config/exrna_atlas_catalog.csv \
+     --output config/exrna_atlas_catalog_enriched.csv \
+     --metadata-dir data/meta/exrna_atlas
+   ```
+
+The script calls the same backend APIs used by the portal to retrieve Analysis
+documents and biosample metadata. It produces:
+
+- `config/exrna_atlas_catalog_enriched.csv` with additional columns for fluids,
+  counts per fluid, diseases, exceRpt identifiers, and the analysis level.
+- JSON snapshots per dataset under `data/meta/exrna_atlas/` containing the raw
+  biosample metadata, which we can reuse for downstream QC or for cross-checking
+  fluid compositions before downloading expression matrices.
+
+If the cookie expires, rerun step 1 to refresh it. All requests honor a short
+throttle delay, but you can adjust it with `--throttle` if needed.
+
+## exRNA Atlas curation notes
+
+See `docs/exrna_dataset_strategy.md` for the distinction between the full Atlas catalog and the smaller automation manifest, along with the current prioritisation queue and folder layout for manual downloads.
